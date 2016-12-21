@@ -5,8 +5,8 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Herbalife"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525">
-    <Grid>
-        
-    </Grid>
+        Title="Herbalife" Height="600" Width="800" ResizeMode="NoResize" WindowStartupLocation="CenterScreen" Icon="logo_herba.ico">
+    <Menu x:Name="menu" HorizontalAlignment="Left" Height="53" Margin="10,10,0,0" VerticalAlignment="Top" Width="780" RenderTransformOrigin="-0.34,-0.575">
+        <MenuItem Header="Teste"/>
+    </Menu>
 </Window>
