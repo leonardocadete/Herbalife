@@ -6,7 +6,9 @@
         xmlns:local="clr-namespace:Herbalife"
         mc:Ignorable="d"
         Title="Herbalife" Height="600" Width="800" ResizeMode="NoResize" WindowStartupLocation="CenterScreen" Icon="logo_herba.ico">
-    <Menu x:Name="menu" HorizontalAlignment="Left" Height="53" Margin="10,10,0,0" VerticalAlignment="Top" Width="780" RenderTransformOrigin="-0.34,-0.575">
-        <MenuItem Header="Teste"/>
+    <Menu x:Name="menu" HorizontalAlignment="Left" Height="53" Margin="0" VerticalAlignment="Top" Width="780" RenderTransformOrigin="-0.34,-0.575">
+        <MenuItem Header="Cadastro&#xD;&#xA;">
+            <MenuItem Header="Produto" HorizontalAlignment="Left" Width="140" Click="MenuItem_Click"/>
+        </MenuItem>
     </Menu>
 </Window>

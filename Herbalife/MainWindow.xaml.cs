@@ -1,4 +1,5 @@
 ﻿using System.Windows;
+using Herbalife.Cadastro;
 
 namespace Herbalife
 {
@@ -10,6 +11,12 @@ namespace Herbalife
         public MainWindow()
         {
             InitializeComponent();
+        }
+
+        private void MenuItem_Click(object sender, RoutedEventArgs e)
+        {
+            var windowProduto = new Produto();
+            windowProduto.Show();
         }
     }
 }
